@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-dependency-injector",
+  "version": "1.0.0",
+  "description": "Node module to create dependency injection ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"**/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adlerparnas/nodejs-dependency-injector.git"
+  },
+  "keywords": [
+    "nodejs",
+    "dependency",
+    "injection",
+    "di",
+    "IoC"
+  ],
+  "author": "Adler Parnas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adlerparnas/nodejs-dependency-injector/issues"
+  },
+  "homepage": "https://github.com/adlerparnas/nodejs-dependency-injector",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
