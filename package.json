@@ -1,14 +1,14 @@
 {
-  "name": "nodejs-dependency-injector",
+  "name": "ninjector",
   "version": "1.0.0",
   "description": "Node module to create dependency injection ",
-  "main": "index.js",
+  "main": "lib/injector.js",
   "scripts": {
     "test": "mocha \"**/*.spec.js\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adlerparnas/nodejs-dependency-injector.git"
+    "url": "https://github.com/adlerparnas/ninjector.git"
   },
   "keywords": [
     "nodejs",
@@ -20,9 +20,9 @@
   "author": "Adler Parnas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adlerparnas/nodejs-dependency-injector/issues"
+    "url": "https://github.com/adlerparnas/ninjector/issues"
   },
-  "homepage": "https://github.com/adlerparnas/nodejs-dependency-injector",
+  "homepage": "https://github.com/adlerparnas/ninjector",
   "devDependencies": {
     "chai": "^2.2.0",
     "mocha": "^2.2.4",
